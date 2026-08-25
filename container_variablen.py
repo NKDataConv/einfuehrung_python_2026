@@ -127,4 +127,17 @@ if "cat" in erstes_dict.keys():
 
 print(erstes_dict)
 
+# Aufgabe 1
+namen = {"Peter": 20, "Günter": 16, "Max": 30}
 
+# Aufgabe 2
+for k in namen.keys():
+    namen[k] = namen[k] + 1
+print(namen)
+
+# Aufgabe 3
+nicht_volljährig = []
+for k, v in namen.items():
+    if v < 18:
+        nicht_volljährig.append(k)
+print(nicht_volljährig)
