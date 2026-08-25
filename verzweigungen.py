@@ -19,6 +19,22 @@ if bedingung_1 and bedingung_2:
 else:
     print("nein, nicht erfüllt")
 
+# Aufgabe 1
+eingabe_zahl = 10
+bedingung = eingabe_zahl % 2 == 0
+
+if bedingung:
+    print("Ja, gerade")
+else:
+    print("Nein, ungerade")
+
+# Aufgabe 2:
+if bedingung:
+    print("ja")
+elif 3>2:
+    print("nein")
+else:
+    print("jein")
 
 # Aufgabe 3:
 jahr = 1952
